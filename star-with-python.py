@@ -1,3 +1,5 @@
+starCount = 5
+
 '''
 *
 **
@@ -5,6 +7,8 @@
 ****
 *****
 '''
-star = 5
-for i in range(star):
-  print("*" * (i + 1))
+def ex1():
+    for i in range(starCount):
+        print("*" * (i + 1))
+        
+ex1()
