@@ -1,6 +1,6 @@
 import fs from "fs";
 
-export function saveResultToJSONFile(filePath, data) {
+export function writeJSONFile(filePath, data) {
   try {
     fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
   } catch (error) {
